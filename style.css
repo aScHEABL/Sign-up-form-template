@@ -6,18 +6,22 @@
 
 body {
     margin: 0px;
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
-#contemt {
+#content {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 100vh;
+    max-width: 100vw;
 }
 
 #content > #background-image-container {
     background-image: url('./resources/haley-phelps-S-llxYh3GzI-unsplash.jpg');
     background-position: 70% 0%;
     background-size: 260%;
-    width: 40vw;
+    flex: 1 1 30%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -43,4 +47,9 @@ body {
 
 #content > #background-image-container > #logo-container > h1 {
     color: white;
+}
+
+#content > #right-section {
+    flex: 1 1 70%;
+    display: flex;
 }
