@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -46,6 +48,7 @@ body {
 }
 
 #content > #background-image-container > #logo-container > h1 {
+    font-family: 'Noto Serif TC', serif;
     color: white;
 }
 
@@ -55,18 +58,24 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     max-height: 100vh;
+    align-items: flex-start;
 }
 
 #content > #right-section > #dummy-text-container {
     flex: 1 1 100%;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 400px;
     height: 200px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
 #content > #right-section > #dummy-text-container > p {
+    flex: 1 1 100%;
     font-size: 24px;
+    margin: 0px;
 }
 
 #content > #right-section > form {
@@ -74,6 +83,8 @@ body {
     margin-right: 400px;
     display: flex;
     height: auto;
+    position: relative;
+    bottom: 50px;
 }
 
 
@@ -90,22 +101,31 @@ body {
     margin: 0;
     font-size: 24px;
     line-height: 0px;
+    height: 20px;
 }
 
 #content > #right-section > form > #form-container > .input {
     flex: 1 1 35%;
     display: flex;
     flex-wrap: wrap;
+    gap: 8px;
 }
 
-#content > #right-section > form > #form-container > .input > * {
+#content > #right-section > form > #form-container > .input > label {
     flex: 1 1 100%;
+}
+
+#content > #right-section > form > #form-container > .input > input {
+    flex: 1 1 100%;
+    height: 30px;
 }
 
 #content > #right-section > #button-container {
     flex: 1 1 100%;
     margin-left: 50px;
     height: 50px;
+    position: relative;
+    bottom: 50px;
 }
 
 #content > #right-section > #button-container > button {
@@ -120,4 +140,10 @@ body {
 #content > #right-section > #log-in-container {
     flex: 1 1 100%;
     margin-left: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+#content > #right-section > #log-in-container > p {
+    font-size: 20px;
 }
