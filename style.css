@@ -53,43 +53,30 @@ body {
 }
 
 #content > #right-section {
-    flex: 1 1 70%;
     display: flex;
+    flex: 1 1 70%;
     flex-wrap: wrap;
-    flex-direction: row;
-    max-height: 100vh;
     align-items: flex-start;
 }
 
 #content > #right-section > #dummy-text-container {
     flex: 1 1 100%;
-    margin-top: 50px;
+    position: relative;
+    top: 100px;
     margin-left: 50px;
-    margin-right: 400px;
-    height: 200px;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
+    margin-right: 200px;
 }
 
 #content > #right-section > #dummy-text-container > p {
-    flex: 1 1 100%;
     font-size: 24px;
-    margin: 0px;
 }
 
 #content > #right-section > form {
     margin-left: 50px;
-    margin-right: 400px;
-    display: flex;
-    height: auto;
-    position: relative;
-    bottom: 50px;
+    margin-right: 200px;
 }
 
-
 #content > #right-section > form > #form-container {
-    flex: 1 1 100%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 64px;
@@ -97,18 +84,15 @@ body {
 }
 
 #content > #right-section > form > #form-container > h3 {
+    font-size: 28px;
     flex: 1 1 100%;
-    margin: 0;
-    font-size: 24px;
-    line-height: 0px;
-    height: 20px;
 }
 
 #content > #right-section > form > #form-container > .input {
     flex: 1 1 35%;
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 16px;
 }
 
 #content > #right-section > form > #form-container > .input > label {
@@ -123,7 +107,6 @@ body {
 #content > #right-section > #button-container {
     flex: 1 1 100%;
     margin-left: 50px;
-    height: 50px;
     position: relative;
     bottom: 50px;
 }
@@ -141,7 +124,7 @@ body {
     flex: 1 1 100%;
     margin-left: 50px;
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 #content > #right-section > #log-in-container > p {
