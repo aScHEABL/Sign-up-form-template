@@ -52,4 +52,72 @@ body {
 #content > #right-section {
     flex: 1 1 70%;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 100vh;
+}
+
+#content > #right-section > #dummy-text-container {
+    flex: 1 1 100%;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 400px;
+    height: 200px;
+}
+
+#content > #right-section > #dummy-text-container > p {
+    font-size: 24px;
+}
+
+#content > #right-section > form {
+    margin-left: 50px;
+    margin-right: 400px;
+    display: flex;
+    height: auto;
+}
+
+
+#content > #right-section > form > #form-container {
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 16px;
+}
+
+#content > #right-section > form > #form-container > h3 {
+    flex: 1 1 100%;
+    margin: 0;
+    font-size: 24px;
+    line-height: 0px;
+}
+
+#content > #right-section > form > #form-container > .input {
+    flex: 1 1 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content > #right-section > form > #form-container > .input > * {
+    flex: 1 1 100%;
+}
+
+#content > #right-section > #button-container {
+    flex: 1 1 100%;
+    margin-left: 50px;
+    height: 50px;
+}
+
+#content > #right-section > #button-container > button {
+    padding: 16px 30px 16px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #2596be;
+    border-radius: 8px;
+    border: 0px;
+}
+
+#content > #right-section > #log-in-container {
+    flex: 1 1 100%;
+    margin-left: 50px;
 }
