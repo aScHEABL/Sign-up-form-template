@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+
+#contemt {
+    display: flex;
+}
+
+#content > #background-image-container {
+    background-image: url('./resources/haley-phelps-S-llxYh3GzI-unsplash.jpg');
+    background-position: 70% 0%;
+    background-size: 260%;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content > #background-image-container > #logo-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-basis: 40vw;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    bottom: 25vh;
+}
+
+#content > #background-image-container > #logo-container > img {
+    filter: invert(100%);
+    max-width: 125px;
+}
+
+#content > #background-image-container > #logo-container > h1 {
+    color: white;
+}
