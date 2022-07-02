@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js" defer></script>
 </head>
 <body>
     <div id="content">
@@ -42,11 +43,19 @@
                     </div>
                     <div class="input">
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="input-password" class="error">
+                        <input type="password" name="password" id="input-password" 
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                     </div>
                     <div class="input">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-password" id="input-confirm-password" class="error">
+                        <input type="password" name="confirm-password" id="input-confirm-password" 
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+                        required>
+                    </div>
+                    <div id="password-mismatch-container">
+                        <p id="password-mismatch"></p>
                     </div>
                 </div>
             </form>

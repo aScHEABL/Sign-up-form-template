@@ -89,10 +89,17 @@ body {
 }
 
 #content > #right-section > form > #form-container > .input {
-    flex: 1 1 35%;
+    flex: 1 1 40%;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+}
+
+#content > #right-section > form > #form-container > #password-mismatch {
+    color: #c40000;
+    width: 500px;
+    height: auto;
+    font-size: 18px;
 }
 
 #content > #right-section > form > #form-container > .input > label {
