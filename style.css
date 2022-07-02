@@ -104,6 +104,16 @@ body {
     height: 30px;
 }
 
+#content > #right-section > form > #form-container > .input > input:focus {
+    outline: 1 solid #0377fc;
+    box-shadow: 1px 2px 1px #996;
+}
+
+#content > #right-section > form > #form-container > .input > .error {
+    outline:  1 solid red;
+    box-shadow: 1px 2px 1px #996;
+}
+
 #content > #right-section > #button-container {
     flex: 1 1 100%;
     margin-left: 50px;
