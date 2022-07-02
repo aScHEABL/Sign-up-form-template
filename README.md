@@ -33,7 +33,7 @@ Tools <br>
 - input would have textarea by default, and textarea has default textarea:focus property that can be easily confused with input:focus <br>
 - background-image property placed directly within div property, without the need to insert another img, and crop the image by zoom in then use background-position to adjust the position of the image. <br>
 - Use cases of pseudo-class. <br>
-- Input verification <br>
+- Input validation <br>
 
 ### Author <br>
 - Github: [aScHEABL](https://github.com/aScHEABL)
