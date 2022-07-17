@@ -13,7 +13,7 @@ This is the Sign-up Form project from [The Odin Project](https://www.theodinproj
 
 Tools <br>
 - Visual Studio Code <br>
-- Linux terminal <br>
+- Linux <br>
 - Git and Github <br>
 - Google Fonts <br>
 - Images from [Unsplash](unsplash.com/) <br>
