@@ -4,6 +4,8 @@ This is the Sign-up Form project from [The Odin Project](https://www.theodinproj
 
 [Live Demo](https://ascheabl.github.io/Sign-up-form-template/) 👈 <br>
 
+![Screenshot](./resources/Screen%20Shot%202022-07-17%20at%202.50.17%20PM.png)
+
 ### Built with <br>
 
 #### Technologies <br>
